@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Jotacê Portfólio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <a href="/">
+          <img src="assets/logo.svg" alt="Jotacê" />
+        </a>
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Olá! Sou Jotacê, Engenheiro de dados</h1>
+        <p>
+          Meu nome é José Carlos, e a maioria me chama de JC. Eu trabalho com dados há 9 anos
+          , sou pós graduado em Engenharia de Dados pela UNOPAR, Tecnólogo em Logística pela
+          Faculdade Professor Luiz Rosa e graduando em Ciência da Computação pela Estácio.
+          Eu ofereço soluções para área de dados, como, pesquisas, análises, criação de 
+          arquiteturas de dados para negócios, automação de pipelines e criação de Dashboards.
+          Em Cloud ou On Premises, meu foco é solucionar implementando conceitos de Engenharia
+          , Ciência ou Análise de Dados. 
+        </p>
+        <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          <img src="assets/foto.jpg" alt="Jotacê" class="jc" />
+          <img src="assets/abstract.svg" alt="background" class="background" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+        <p>
+          Além dos pipelines, dos modelos de arquitetura de dados e das queries,
+          sou apaixonado por música velha, memes, violão e cultura afro. Sou campo-limpense
+          de nascença e belo-horizontino de coração. Sou pai do Ícaro e "fi" da Toninha.
+          Gosto demais de fazer novos amigos, então fique a vontade para me chamar nas 
+          redes socias e trocar memes comigo.    
+          
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/jotace.clp/"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jose-carlos-da-silva-a9bb21182/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/jotace.clp"><img src="assets/facebook.svg" alt="Facebook" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+          Engenheiro de Dados 
+        </h3>
+        <p>
+          Solucionar problemas arquiteturais na área de dados é entusiasmante.
+          Seja utilizando novas tecnologias ou as clássicas procedures de SQL, 
+          meu foco é ver a informação chegando corretamente para as pessoas que
+          precisam dela de forma segura e clara. 
+        </p>
+        <p>
+          Eu amo o desafio de encontrar soluções inovadoras e criativas para
+          problemas complexos e estou sempre buscando aprender e crescer como
+          profissional.
+        </p>
+      </div>
+    </section>
+
+    <!-- habilidades -->
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+        <p class="description">
+          Descubra as habilidades e ferramentas que domino e que me permitem
+          criar soluções criativas e funcionais para meus clientes.
+        </p>
+        <ul>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/notebook.png" alt="Big Data" />
+            </div>
+            <h3>Big Data</h3>
+            <p>
+              Experiência em Cloud usando arquitetura Data Lakehouse, utilizando Pyspark,
+              Delta.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/colors.png" alt="Devops" />
+            </div>
+            <h3>Devops</h3>
+            <p>
+              Habilidade em criar pipelines CI/CD, desenvolvimento em Containers e criação
+              de clusters Kubernetes, GIT, GITOPS, DATAOPS.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/phone.png" alt="Orquestração" />
+            </div>
+            <h3>Orquestração</h3>
+            <p>
+              Seja com schedulers nativos, Airflow ou CRONTAB, entrego soluções de agendamento
+              de execuções de scripts em minhas soluções.              
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/files.png" alt="Gerenciamentos de versões" />
+            </div>
+            <h3>Data Modeling</h3>
+            <p>
+              Entrego soluções de modelagem de dados diversas, desde Data Warehouses, Data Lakehouse
+              Data Vault. E me atualizo constantemente sobre o assunto.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Projetos em Destaque</h2>
+        <p>
+          De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+          meus trabalhos mais recentes
+        </p>
+      </div>
+      <ul>
+        <li>
+          <div class="image">
+            <img src="assets/task-manager.png" alt="Data Mart de vendas" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Arquitetura de gerenciamento de dados e indicadores.
+            </h3>
+            <p>
+              Desenvolvido para uma grande empresa de São Paulo, do setor de Incorporaçã.
+              Esse modelo é versátil e eficiente em seu propósito.
+            </p>
+            <a href="#">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/ecommerce.png" alt="Okonomikus" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Coleta de dados abertos do cenário econômico brasileiro.
+            </h3>
+            <p>
+              Esse projeto é baseado em arquitetura Big Data, e utiliza AWS como 
+              Cloud Provider, nele utilizo Airflow, SODA, Kubernetes, Terraform, Python
+              Pyspark, Glue, RDS e Plotly.
+            </p>
+            <a href="https://github.com/JC3008/DataEngineering_Kubernetes/blob/dev/Readme.md">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="assets/delivery.png" alt="MDS" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Modern Data Stack
+            </h3>
+            <p>
+              Arquitetura moderna de dados, utilizando Airflow, SODA, DBT e Power BI.
+            </p>
+            <a href="#">Leia mais &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+        <p class="mb-m">
+          Ficarei feliz em saber mais sobre seus projetos e como podemos
+          trabalhar juntos para torná-los um sucesso.
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">josecarlos.ico@gmail.com</span>
+          <span>31 987164172</span>
+        </div>
+        <ul class="mb-l">
+          <li>
+            <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2024 Jotacê. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
